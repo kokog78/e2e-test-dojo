@@ -23,7 +23,7 @@ public class IbelloSteps extends StepLibrary {
 		contact.set_full_name("John Doe");
 		contact.set_email_address("john.doe@example.com");
 		contact.set_subject("Test message");
-		contact.set_text("This is a test message");
+		contact.set_text("This is a test message: " + System.getProperty("user.name"));
 	}
 
 	public void when_i_submit_the_contact_form() {
