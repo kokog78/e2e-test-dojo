@@ -1,0 +1,13 @@
+/.settings/
+/.idea/
+/.gradle/
+/build/
+/target/
+/out/
+/node_modules/
+.project
+/bin/
+/test-output/
+/coverage/
+/package-lock.json
+/ibello/results/

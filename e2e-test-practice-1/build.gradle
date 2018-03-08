@@ -1,0 +1,21 @@
+plugins {
+    id "java"
+    id "maven"
+}
+
+repositories {
+	mavenCentral()
+    jcenter()
+}
+
+compileJava {
+	options.encoding = "UTF-8"
+}
+
+compileTestJava {
+	options.encoding = "UTF-8"
+}
+
+dependencies {
+    compile 'hu.ibello:ibello-api:1.6.0'
+}
